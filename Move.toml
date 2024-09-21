@@ -1,0 +1,16 @@
+[package]
+name = "AptosPro"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hello_blockchain = "d0260449095d3dfbc47bfefa5d2db1c9383594c3ff28e95c038dc50f17e941df"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
